@@ -18,3 +18,7 @@ Why revenue of marketplace doesn't grow for last 6 months?
 
 
 ## Data Cleaning
+- The amount of rows in customer table equals the amount of rows of orders table. If one customer makes 3 orders, there will be 3 duplicates of the same customer in customer table. Decision is not to clean duplicates, but remember about this.
+- In olist_order_reviews_dataset there are 138 rows with NULL-value of all column. Decision is to delete them.
+- A lot of the records in olist_order_reviews_dataset have bad formatting.  _Reccomendation is to understand the reason of it and find a solution how ti fix it_
+- 610 products in olist_products_dataset table has no info _Reccomendation is to fill the info about products_
