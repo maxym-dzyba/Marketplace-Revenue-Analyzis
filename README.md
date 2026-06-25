@@ -14,8 +14,7 @@ Why revenue of marketplace doesn't grow for last 5 months?
 - olist_sellers_dataset - sellers table
 - product_category_name_translation - categoory name translation in English table
 
-<img width="929" height="564" alt="image" src="https://github.com/user-attachments/assets/d88b1fc6-f775-4316-b020-ead184329843" />
-
+<img width="2486" height="1496" alt="HRhd2Y0" src="https://github.com/user-attachments/assets/837f6b1c-458a-4337-8c97-2a0ae67442f7" />
 
 ## Data Cleaning
 - The amount of rows in customer table equals the amount of rows of orders table. If one customer makes 3 orders, there will be 3 duplicates of the same customer in customer table. Decision is not to clean duplicates, but remember about this.
@@ -70,6 +69,7 @@ LIMIT 19
 ```
 
 On the next screenshot the monthly marketplace revenue, number of customers and number of purchased items is showed:
-<img width="932" height="592" alt="image" src="https://github.com/user-attachments/assets/05b6dbcd-d78a-4a13-b09f-d62d42163b64" />
+<img width="929" height="564" alt="image" src="https://github.com/user-attachments/assets/1af934b2-f216-48cb-a25c-7e7ed46638e7" />
+
 
 All indicators(revenue, number of customers and number of purchased items) changed for last 2 years and showed the growth in common, but for last 5 months (for 7 months for number of customers and number of purchased items) they show non-progress results and even minus. Let's go deep into the data!
