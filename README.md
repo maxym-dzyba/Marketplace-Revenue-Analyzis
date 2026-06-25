@@ -14,8 +14,7 @@ Why revenue of marketplace doesn't grow for last 5 months?
 - olist_sellers_dataset - sellers table
 - product_category_name_translation - categoory name translation in English table
 
-<img width="2486" height="1496" alt="HRhd2Y0" src="https://github.com/user-attachments/assets/b66fa38e-8f95-4711-9ed1-7e8871a856aa" />
-
+<img width="934" height="562" alt="image" src="https://github.com/user-attachments/assets/c58bc48b-c932-44eb-8016-53c85ae57f77" />
 
 ## Data Cleaning
 - The amount of rows in customer table equals the amount of rows of orders table. If one customer makes 3 orders, there will be 3 duplicates of the same customer in customer table. Decision is not to clean duplicates, but remember about this.
