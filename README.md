@@ -37,7 +37,7 @@ revenue_table AS(
 SELECT
 ympt.year_month_purchase,
 ROUND(SUM(ooid.price), 2) AS revenue,
-COUNT(DISTINCT ocd.customer_id) AS customer_count,
+COUNT(DISTINCT ocd.customer_unique_id) AS customer_count,
 COUNT(ooid.order_id) AS item_purchased_count
 FROM year_month_purchase_table ympt INNER JOIN olist_order_items_dataset ooid ON ympt.order_id = ooid.order_id
 INNER JOIN olist_customers_dataset ocd  ON ympt.customer_id = ocd.customer_id
