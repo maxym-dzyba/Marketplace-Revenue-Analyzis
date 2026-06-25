@@ -20,7 +20,7 @@ Why revenue of marketplace doesn't grow for last 5 months?
 ## Data Cleaning
 - The amount of rows in customer table equals the amount of rows of orders table. If one customer makes 3 orders, there will be 3 duplicates of the same customer in customer table. Decision is not to clean duplicates, but remember about this.
 - In olist_order_reviews_dataset there are 138 rows with NULL-value of all column. Decision is to delete them.
-- A lot of the records in olist_order_reviews_dataset have bad formatting.  _Reccomendation is to understand the reason of it and find a solution how ti fix it_
+- A lot of the records in olist_order_reviews_dataset have bad formatting.  **_Reccomendation** is to understand the reason of it and find a solution how ti fix it_
 - 610 products in olist_products_dataset table has no info _Reccomendation is to fill the info about products_
 
 ## Analysis
@@ -74,3 +74,9 @@ On the next screenshot the monthly marketplace revenue, number of customers and 
 <img width="929" height="562" alt="image" src="https://github.com/user-attachments/assets/255fbea9-a666-447f-abd5-fb7136652d72" />
 
 All indicators(revenue, number of customers and number of purchased items) changed for last 2 years and showed the growth in common, but for last 5 months (for 7 months for number of customers and number of purchased items) they show non-progress results and even minus. Let's go deep into the data!
+
+### Customers analyzis
+
+As we saw on the screenshot, amount of new customers doesn't grow for last 7 months. During the analyze of repeated orders (customers, who made more than 2 orders) we also see the grow of repeated orders from 2017-01 to 2018-02 and then non-predictable behaviour was started where is mostly falls of repeated orders per month
+
+Orders per value coefficient is average **_1.0139_** for all history, which means that marketplace make focus on the new clients, but doesn't try to encuourage old cliesnt for repeated purchases. Even with it for last 6 months there is the lowest values (**less than 1.01**) for orders per customer
