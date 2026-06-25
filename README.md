@@ -25,7 +25,7 @@ Why revenue of marketplace doesn't grow for last 5 months?
 
 ## Analysis
 
-# Problem overview
+### Problem overview
 
 ```
 WITH year_month_purchase_table AS(
