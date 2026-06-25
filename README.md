@@ -70,7 +70,7 @@ LIMIT 19
 ```
 
 On the next screenshot the monthly marketplace revenue, number of customers and number of purchased items is showed:
-<img width="929" height="564" alt="image" src="https://github.com/user-attachments/assets/1af934b2-f216-48cb-a25c-7e7ed46638e7" />
 
+<img width="929" height="562" alt="image" src="https://github.com/user-attachments/assets/255fbea9-a666-447f-abd5-fb7136652d72" />
 
 All indicators(revenue, number of customers and number of purchased items) changed for last 2 years and showed the growth in common, but for last 5 months (for 7 months for number of customers and number of purchased items) they show non-progress results and even minus. Let's go deep into the data!
