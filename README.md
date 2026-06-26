@@ -80,3 +80,5 @@ All indicators(revenue, number of customers and number of purchased items) chang
 As we saw on the screenshot, amount of new customers doesn't grow for last 7 months. During the analyze of repeated orders (customers, who made more than 2 orders) we also see the grow of repeated orders from 2017-01 to 2018-02 and then non-predictable behaviour was started where is mostly falls of repeated orders per month
 
 Orders per value coefficient is average **_1.0139_** for all history, which means that marketplace make focus on the new clients, but doesn't try to encuourage old clients for repeated purchases. Even with it for last 6 months there is the lowest values per history (_**less than 1.01**_) for orders per customer
+
+Monthly average order value shows stable results (between 125-140 in local currency), which means, that AOV is not the reason of revenue falling down
