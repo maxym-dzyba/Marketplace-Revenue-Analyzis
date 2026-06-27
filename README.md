@@ -171,10 +171,25 @@ _*Reccomendation is to speed up delivery process, especially the time of giving 
 
 After 2018-03 the percentage of late orders became better with 5.74% average, but it could definitely have impact for future revenue
 
+## Sellers
 
+25 sellers was deliver 20+ orders for more than 20 days from 2018-01. **_Reccomendation is to discuss the reasons of that with sellers or try to find another sellers if there is a opportunity for that_**
 
+## Statuses of orders
 
+- In 5 orders the estimated delivery date was set later, than actually it was delivered. Probably, because of that customers canceled the order. Also 645 orders(21.7% from total) from 2963, which not in delivered status the estimated delivery date was set for more than 30 days, what may be the reason for customer lost interest in product and demanding money return.** _Reccomendation is to rewatch the estimation delivery date setting process_**
 
+Statuses rate are the next:
+- approved - 0.002% (from all orders)
+- canceled - 0.629%
+- created - 0.005%
+- delivered - 97.02%
+- invoiced - 0.316%
+- processing - 0.303%
+- shipped - 1.113%
+- unavailable - 0.612%
+
+Here need to pay attention to shipped status. Products in this status was delivered from seller, but for some reason no data about delivered to customer. _**Reccomedation is to understand this is because of client cancel ot lost of the product on the way**_
 
 - аналіз базується тільки на delivered orders
 - немає даних про маркетинг і канали залучення
