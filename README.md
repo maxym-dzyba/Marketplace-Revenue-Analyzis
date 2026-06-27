@@ -173,7 +173,7 @@ After 2018-03 the percentage of late orders became better with 5.74% average, bu
 
 ### Sellers
 
-25 sellers was deliver 20+ orders for more than 20 days from 2018-01. **_Reccomendation is to discuss the reasons of that with sellers or try to find another sellers if there is a opportunity for that_**
+25 sellers was deliver 20+ orders for more than 20 days from 2018-01 to last date in table. **_Reccomendation is to discuss the reasons of that with sellers or try to find another sellers if there is a opportunity for that_**
 
 ### Statuses of orders
 
