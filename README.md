@@ -156,11 +156,24 @@ In deep analyze of this problem It was noticed:
 2018-02: 
 6555 orders, 
 1032 late orders(15.74% from total), 
-18 orders took too long to put from status purchased to approved (more than 4 days; 1.74% from all late orders)
-722 orders took too long to put from status approved to delivered to carrier (As google says, big marketplaces usually do this in a couple of hours, so in our case more than 1 day is long time; 69.96% from all late orders)
+18 orders took too long to put from status purchased to approved (more than 4 days; 1.74% from all late orders),
+722 orders took too long to put from status approved to delivered to carrier (As google says, big marketplaces usually do this in a couple of hours, so in our case more than 1 day is long time; 69.96% from all late orders),
 438 orders took too long to deliver from seller to customer (more than 31 days; 42.44% from all late orders)
 
 2018-03:
+7003 orders,
+1480 late (21,13% from total),
+11 orders purchased-approved (0.74%),
+992 orders approved-delivered to carrier (67.03%),
+493 seller-customer (33.31%)
+
+_*Reccomendation is to speed up delivery process, especially the time of giving to seller the order*_
+
+After those 2018-03 the percentage of late orders became better with 5.74%, but it could definitely have impact for future revenue
+
+
+
+
 
 
 - аналіз базується тільки на delivered orders
