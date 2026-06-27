@@ -139,3 +139,30 @@ ORDER BY cb.first_order, cb.diff_months;
 ```
 
 Business doesn't make focus on current customers, but only for new customers. Maximum monthly retention percantage is _**0.72%.**_. Value for last 5 months has similar valuer as all previous months. _Reccomendation is to understand does business can spend resources to keep customers to build Life Time Value and increase revenue by this way._
+
+### Categories of products
+
+The most popular categories by items sold amount, orders count, customers count and revenue are:
+
+Auto, health_beauty, housewares, watches_gifts - shows us grow of all indicators during all history
+bed_bath_table, computers_accessories, furniture_decor, sports_leisure, telephony, toys - shows us no-grow attitude and strong falling down for some categories for last 5-7 months
+
+### Shipping
+
+From 2016-09 to 2017-10 there is _**4.41%**_ average of orders, that was delivered late. But 2017-11 it was _**14.01%**_ then 2018-02 - _**15.74%**_ and finally 2018-03 - _**21.13%**_ which is record. It may have an impact for customers refuse from the orders or just forgot about them.
+
+In deep analyze of this problem It was noticed:
+
+2018-02: 
+6555 orders, 
+1032 late orders(15.74% from total), 
+18 orders took too long to put from status purchased to approved (more than 4 days; 1.74% from all late orders)
+722 orders took too long to put from status approved to delivered to carrier (As google says, big marketplaces usually do this in a couple of hours, so in our case more than 1 day is long time; 69.96% from all late orders)
+438 orders took too long to deliver from seller to customer (more than 31 days; 42.44% from all late orders)
+
+2018-03:
+
+
+- аналіз базується тільки на delivered orders
+- немає даних про маркетинг і канали залучення
+- не враховано зовнішні фактори попиту
