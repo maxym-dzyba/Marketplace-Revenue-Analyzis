@@ -1,4 +1,4 @@
-# Marketplace-Revenue-Analyzis
+# Marketplace-Revenue-Analysis
 
 # Business Problem
 Why revenue of marketplace doesn't grow for last 5 months?
@@ -76,7 +76,7 @@ On the next screenshot the monthly marketplace revenue, number of customers and 
 
 All indicators(revenue, number of customers and number of purchased items) changed for last 2 years and showed the growth in common, but for last 5 months (for 7 months for number of customers and number of purchased items) they show non-progress results and even minus. Let's go deep into the data!
 
-### Customers analyzis
+### Customers analysis
 
 As we saw on the screenshot, amount of new customers doesn't grow for last 7 months. During the analyze of repeated orders (customers, who made more than 2 orders) we also see the grow of repeated orders from 2017-01 to 2018-02 and then non-predictable behaviour was started where is mostly falls of repeated orders per month
 
@@ -86,7 +86,7 @@ Monthly average order value shows stable results (_**between 125-140**_ in local
 
 ### Retention
 
-In order to analyze retention, let's make a cohort retention table to see the percentage of customers who make repeated purchases in next months:
+In order to analyse retention, let's make a cohort retention table to see the percentage of customers who make repeated purchases in next months:
 
 ```
 CREATE TEMP TABLE orders_clean AS -- Temp table was created due to long processing time
@@ -151,7 +151,7 @@ The most popular categories by items sold amount, orders count, customers count 
 
 From 2016-09 to 2017-10 there is _**4.41%**_ average of orders, that was delivered late. But 2017-11 it was _**14.01%**_ then 2018-02 - _**15.74%**_ and finally 2018-03 - _**21.13%**_ which is record. It may have an impact for customers refuse from the orders or just forgot about them.
 
-In deep analyze of this problem It was noticed:
+In deep analyse of this problem It was noticed:
 
 2018-02: 
 - 6555 orders, 
