@@ -144,8 +144,8 @@ Business doesn't make focus on current customers, but only for new customers. Ma
 
 The most popular categories by items sold amount, orders count, customers count and revenue are:
 
-Auto, health_beauty, housewares, watches_gifts - shows us grow of all indicators during all history
-bed_bath_table, computers_accessories, furniture_decor, sports_leisure, telephony, toys - shows us no-grow attitude and strong falling down for some categories for last 5-7 months
+- Auto, health_beauty, housewares, watches_gifts - shows us grow of all indicators during all history
+- bed_bath_table, computers_accessories, furniture_decor, sports_leisure, telephony, toys - shows us no-grow attitude and strong falling down for some categories for last 5-7 months
 
 ### Shipping
 
