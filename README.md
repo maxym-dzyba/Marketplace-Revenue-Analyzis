@@ -82,3 +82,57 @@ As we saw on the screenshot, amount of new customers doesn't grow for last 7 mon
 Orders per value coefficient is average **_1.0139_** for all history, which means that marketplace make focus on the new clients, but doesn't try to encuourage old clients for repeated purchases. Even with it for last 6 months there is the lowest values per history (_**less than 1.01**_) for orders per customer
 
 Monthly average order value shows stable results (between 125-140 in local currency), which means, that AOV is not the reason of revenue falling down
+
+### Retention
+
+In order to analyze retention, let's make a cohort retention table to see the percentage of customers who make repeated purchases in next months:
+
+```
+CREATE TEMP TABLE orders_clean AS -- Temp table was created due to long processing time
+SELECT
+  ood.order_id,
+  ocd.customer_unique_id,
+  STRFTIME('%Y-%m', ood.order_purchase_timestamp) AS order_date
+FROM olist_orders_dataset ood
+JOIN olist_customers_dataset ocd 
+  ON ood.customer_id = ocd.customer_id
+WHERE ood.order_status = 'delivered';
+
+CREATE TEMP TABLE first_order AS -- Temp table was created due to long processing time
+SELECT
+  customer_unique_id,
+  MIN(order_date) AS first_order
+FROM orders_clean
+GROUP BY customer_unique_id;
+
+WITH cohort_base AS (
+  SELECT
+    f.first_order,
+    (
+      (CAST(SUBSTR(o.order_date, 1, 4) AS INTEGER) - CAST(SUBSTR(f.first_order, 1, 4) AS INTEGER)) * 12 +
+      (CAST(SUBSTR(o.order_date, 6, 2) AS INTEGER) - CAST(SUBSTR(f.first_order, 6, 2) AS INTEGER))
+    ) AS diff_months,
+    COUNT(DISTINCT o.customer_unique_id) AS users_count
+  FROM orders_clean o
+  JOIN first_order f 
+    ON o.customer_unique_id = f.customer_unique_id
+  GROUP BY f.first_order, diff_months
+),
+cohort_size AS (
+  SELECT 
+    first_order,
+    users_count AS cohort_users
+  FROM cohort_base
+  WHERE diff_months = 0
+)
+SELECT
+  cb.first_order,
+  cb.diff_months,
+  cb.users_count,
+  cs.cohort_users,
+  ROUND(1.0 * cb.users_count / cs.cohort_users * 100, 2) AS retention_pct
+FROM cohort_base cb
+JOIN cohort_size cs
+  ON cb.first_order = cs.first_order
+ORDER BY cb.first_order, cb.diff_months;
+```
