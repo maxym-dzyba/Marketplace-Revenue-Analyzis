@@ -23,7 +23,7 @@ Why revenue of marketplace doesn't grow for last 5 months?
 - A lot of the records in olist_order_reviews_dataset have bad formatting.  **_Reccomendation** is to understand the reason of it and find a solution how ti fix it_
 - 610 products in olist_products_dataset table has no info _Reccomendation is to fill the info about products_
 - 2 products category (pc_gamer and portateis_cozinha_e_preparadores_de_alimentos) has not translations in product_category_name_translation table
-- 
+
 ## Analysis
 
 ### Problem overview
