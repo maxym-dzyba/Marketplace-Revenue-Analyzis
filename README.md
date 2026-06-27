@@ -169,7 +169,7 @@ In deep analyze of this problem It was noticed:
 
 _*Reccomendation is to speed up delivery process, especially the time of giving to seller the order*_
 
-After those 2018-03 the percentage of late orders became better with 5.74%, but it could definitely have impact for future revenue
+After 2018-03 the percentage of late orders became better with 5.74% average, but it could definitely have impact for future revenue
 
 
 
