@@ -81,7 +81,7 @@ As we saw on the screenshot, amount of new customers doesn't grow for last 7 mon
 
 Orders per value coefficient is average **_1.0139_** for all history, which means that marketplace make focus on the new clients, but doesn't try to encuourage old clients for repeated purchases. Even with it for last 6 months there is the lowest values per history (_**less than 1.01**_) for orders per customer
 
-Monthly average order value shows stable results (between 125-140 in local currency), which means, that AOV is not the reason of revenue falling down
+Monthly average order value shows stable results (_**between 125-140**_ in local currency), which means, that AOV is not the reason of revenue falling down
 
 ### Retention
 
@@ -136,3 +136,5 @@ JOIN cohort_size cs
   ON cb.first_order = cs.first_order
 ORDER BY cb.first_order, cb.diff_months;
 ```
+
+Business doesn't make focus on current customers, but only for new customers. Maximum monthly retention percantage is _**0.72%.**_. Value for last 5 months has similar valuer as all previous months. _Reccomendation is to understand does business can spend resources to keep customers to build Life Time Value and increase revenue by this way._
