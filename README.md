@@ -189,7 +189,7 @@ Statuses rate are the next:
 - shipped - 1.113%
 - unavailable - 0.612%
 
-Here need to pay attention to status 'shipped'. Products in this status was delivered from seller, but for some reason no data about delivered to customer date. _**Reccomedation is to understand this is because of client cancel ot lost of the product on the way**_
+Here need to pay attention to status 'shipped'. Products in this status was delivered from seller, but for some reason no data about delivered to customer date. _**Reccomedation is to understand this is because of client cancel or lost of the product on the way**_
 
 - аналіз базується тільки на delivered orders
 - немає даних про маркетинг і канали залучення
