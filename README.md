@@ -177,7 +177,7 @@ After 2018-03 the percentage of late orders became better with 5.74% average, bu
 
 ### Statuses of orders
 
-- In 5 orders the estimated delivery date was set later, than actually it was delivered. Probably, because of that customers canceled the order. Also 645 orders(21.7% from total) from 2963, which not in delivered status the estimated delivery date was set for more than 30 days, what may be the reason for customer lost interest in product and demanding money return.** _Reccomendation is to rewatch the estimation delivery date setting process_**
+In 5 orders the estimated delivery date was set later, than actually it was delivered. Probably, because of that customers canceled the order. Also 645 orders(21.7% from total) from 2963, which not in delivered status the estimated delivery date was set for more than 30 days, what may be the reason for customer lost interest in product and demanding money return.** _Reccomendation is to rewatch the estimation delivery date setting process_**
 
 Statuses rate are the next:
 - approved - 0.002% (from all orders)
